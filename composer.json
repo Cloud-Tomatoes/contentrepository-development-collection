@@ -15,7 +15,7 @@
     "replace": {
         "neos/contentgraph-doctrinedbaladapter": "self.version",
         "neos/eventsourcedcontentrepository-legacyapi": "self.version",
-        "neos/event-sourced-content-repository": "self.version",
+        "neos/event-sourced-content-repository": "self.version"
     },
     "suggest": [],
     "autoload": {
