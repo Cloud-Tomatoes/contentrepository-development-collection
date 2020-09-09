@@ -1,8 +1,0 @@
--
-  requestFilter: 'isPackage("Neos.Neos") && isController("Module\Management\Workspaces")'
-  options:
-    templateRootPaths:
-      - 'resource://Neos.EventSourcedNeosAdjustments/Private/Templates'
-    partialRootPaths:
-      - 'resource://Neos.EventSourcedNeosAdjustments/Private/Partials'
-      - 'resource://Neos.Neos/Private/Partials'

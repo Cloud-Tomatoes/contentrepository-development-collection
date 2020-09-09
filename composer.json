@@ -15,9 +15,7 @@
     "replace": {
         "neos/contentgraph-doctrinedbaladapter": "self.version",
         "neos/eventsourcedcontentrepository-legacyapi": "self.version",
-        "neos/eventsourcedcontentrepository-security": "self.version",
         "neos/event-sourced-content-repository": "self.version",
-        "neos/event-sourced-neos-adjustments": "self.version"
     },
     "suggest": [],
     "autoload": {
@@ -28,14 +26,8 @@
             "Neos\\EventSourcedContentRepository\\LegacyApi\\": [
                 "Neos.EventSourcedContentRepository.LegacyApi/Classes"
             ],
-            "Neos\\EventSourcedContentRepository\\Security\\": [
-                "Neos.EventSourcedContentRepository.Security/Classes"
-            ],
             "Neos\\EventSourcedContentRepository\\": [
                 "Neos.EventSourcedContentRepository/Classes"
-            ],
-            "Neos\\EventSourcedNeosAdjustments\\": [
-                "Neos.EventSourcedNeosAdjustments/Classes"
             ]
         }
     },
