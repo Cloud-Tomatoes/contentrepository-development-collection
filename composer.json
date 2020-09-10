@@ -14,7 +14,6 @@
     },
     "replace": {
         "neos/contentgraph-doctrinedbaladapter": "self.version",
-        "neos/eventsourcedcontentrepository-legacyapi": "self.version",
         "neos/event-sourced-content-repository": "self.version"
     },
     "suggest": [],
@@ -22,9 +21,6 @@
         "psr-4": {
             "Neos\\ContentGraph\\DoctrineDbalAdapter\\": [
                 "Neos.ContentGraph.DoctrineDbalAdapter/Classes"
-            ],
-            "Neos\\EventSourcedContentRepository\\LegacyApi\\": [
-                "Neos.EventSourcedContentRepository.LegacyApi/Classes"
             ],
             "Neos\\EventSourcedContentRepository\\": [
                 "Neos.EventSourcedContentRepository/Classes"
@@ -39,9 +35,6 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Neos\\EventSourcedContentRepository\\LegacyApi\\Tests\\": [
-                "Neos.EventSourcedContentRepository.LegacyApi/Tests"
-            ],
             "Neos\\EventSourcedContentRepository\\Tests\\": [
                 "Neos.EventSourcedContentRepository/Tests"
             ]
